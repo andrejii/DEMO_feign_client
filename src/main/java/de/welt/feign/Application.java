@@ -18,7 +18,7 @@ public class Application {
             .build();
 
         final RequestInterceptor basicAuth =
-            new BasicAuthRequestInterceptor("tablet-webservice", "quiet-bPz5tNm");
+            new BasicAuthRequestInterceptor("user", "password");
 
 
         ImageArticle api = Feign.builder()
